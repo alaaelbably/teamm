@@ -1,0 +1,300 @@
+* {
+  /* background-color: #E1D4BB; */
+  margin: 0;
+  padding: 0;
+  font-family: "PT Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+
+}
+
+.navbar {
+  width: 100%;
+  height: 80px;
+  margin: auto;
+  background-color: #E1D4BB;
+}
+
+.iconn {
+  width: 200px;
+  height: 80px;
+  float: left;
+}
+
+.logoo {
+  color: #00224d;
+  font-size: 35px;
+  padding-left: 20px;
+  float: left;
+  padding-top: 10px;
+}
+
+.menu {
+  width: 400px;
+  float: left;
+  height: 70px;
+}
+
+ul {
+  float: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ul li {
+  list-style: none;
+  margin-left: 80px;
+  margin-top: 10px;
+  font-size: 19px;
+}
+
+ul li a {
+  text-decoration: none;
+  color: rgb(107, 85, 62);
+  font-weight: bold;
+  transition: 0.4s ease-in-out;
+
+}
+
+ul li a:hover {
+  color: #00224d;
+  text-decoration: underline;
+}
+
+.First {
+  background-color: #E1D4BB;
+
+}
+
+
+.heading {
+  text-align: center;
+  color: #00224D;
+  font-size: larger;
+
+}
+
+.cards{
+margin-left: 150px ;
+
+
+}
+
+.mint {
+  background-color: #00224d;
+  color: #E1D4BB;
+  text-align: center;
+  width: 420px;
+  height: 650px;
+  margin: 50px 30px;
+  display: inline-block;
+  border-radius: 30px;
+  border: solid black 5px;
+
+}
+
+.img1 {
+  border-radius: 40px;
+  width: 350px;
+  height: 300px;
+  border: solid #E1D4BB 5px;
+  border-width: 5px;
+  margin-top: 30px;
+
+}
+
+
+
+.name1 {
+  text-align: left;
+  font-weight: bold;
+  font-size: 40px;
+  padding-left: 30px;
+  color: #E1D4BB;
+  background-color: #00224d;
+  text-decoration: none;
+}
+
+.Discount1 {
+  text-decoration: line-through;
+  font-weight: bold;
+  color: #E1D4BB;
+  font-size: 25px;
+  background-color: #00224d;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+
+.Discount4 {
+  text-decoration: underline;
+  font-weight: bold;
+  font-size: 25px;
+  color: #E1D4BB;
+  background-color: #00224d;
+  padding-top: 20px;
+
+
+}
+
+.btn {
+  text-decoration: none;
+  border: solid #E1D4BB 5px;
+  border-radius: 10px;
+  padding: 10px 20px;
+  margin-top: 20px;
+  color: #00224d;
+  font-size: 20px;
+  background-color: #E1D4BB;
+}
+
+.Discount2 {
+  text-decoration: line-through;
+}
+
+.Discount3 {
+  text-decoration: line-through;
+}
+
+.btn a {
+  text-decoration: none;
+  color: #00224D;
+}
+
+.heading p {
+  width: 75%;
+  margin: auto;
+}
+
+/* start footer */
+.info {
+  background-color: #00224D;
+  width: 100%;
+ 
+}
+
+.main {
+  font-size: xx-large;
+  color: #E1D4BB;
+  font-weight: bold;
+}
+
+.div1 {
+  display: inline-block;
+  width: 240px;
+  height: 150px;
+  margin-top: 10px;
+}
+
+.Pro {
+  font-size: large;
+  color: #E1D4BB;
+  text-align: center;
+  padding: 20px 20px;
+  font-weight: bold;
+}
+
+.login {
+  text-align: center;
+  text-decoration: none;
+  color: #E1D4BB;
+  display: block;
+}
+
+.register {
+  text-align: center;
+  text-decoration: none;
+  color: #E1D4BB;
+  display: block;
+  padding-top: 15px;
+
+}
+
+.aboutus {
+  text-align: center;
+  text-decoration: none;
+  color: #E1D4BB;
+  display: block;
+  padding-top: 15px;
+}
+
+.Feedback {
+  color: #E1D4BB;
+  text-align: center;
+  font-size: large;
+  padding-bottom: 55px;
+  font-weight: bold;
+ 
+}
+
+.div2 {
+  display: inline-block;
+  width: 300px;
+  height: 150px;
+  margin-left: 20px;
+  padding-bottom: 50px;
+  background-color: #00224D;
+}
+
+textarea {
+  margin-left: 20px;
+  background-color: #E1D4BB;
+}
+
+.follow {
+  text-align: center;
+  padding-right: 20px;
+  font-weight: bold;
+  font-size: 45;
+}
+
+.fa-facebook {
+  color: blue;
+  padding-left: 5px;
+  font-size: 30px;
+}
+
+.fa-instagram {
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding-left: 5px;
+  font-size: 30px;
+}
+
+.fa-x-twitter {
+  color: black;
+  padding-left: 5px;
+  font-size: 30px;
+}
+
+.fa-youtube {
+  color: red;
+  padding-left: 5px;
+  font-size: 30px;
+}
+
+.fa-tiktok {
+  color: black;
+  padding-left: 5px;
+  font-size: 30px;
+}
+
+.icon {
+  background-color: #00224D;
+  height: 120px;
+  width: 200px;
+  text-align: center;
+  margin: 40px 10px;
+  padding: 30px 20px;
+  border-radius: 20px;
+  display: inline-block;
+  color: #E1D4BB;
+
+}
+
+.icon .a {
+  padding-left: 20px;
+  text-align: center;
+}
